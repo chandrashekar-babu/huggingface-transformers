@@ -17,7 +17,7 @@ demo = gr.Interface(
     inputs=gr.Textbox(label="Enter text", lines=3, placeholder="Type here..."),
     outputs=gr.Label(label="Sentiment"),
     title="Sentiment Analysis Demo",
-    description="Fine-tuned BERT for sentiment analysis",
+    description="BERT (base) for sentiment analysis",
     examples=[
         ["This movie was absolutely fantastic!"],
         ["Terrible waste of time and money."],

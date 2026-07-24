@@ -17,7 +17,7 @@ def chat_response(message, history):
     
     response = generator(
         prompt,
-        max_new_tokens=200,
+        max_new_tokens=320,
         do_sample=True,
         temperature=0.7,
         top_p=0.9,
