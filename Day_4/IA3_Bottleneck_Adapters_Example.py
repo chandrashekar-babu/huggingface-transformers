@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import IA3Config, get_peft_model
 
 # 1. Load the foundation model
-model_id = "google/gemma-2b-it"
+model_id = "google/gemma-3-1b-it"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
     model_id, 
