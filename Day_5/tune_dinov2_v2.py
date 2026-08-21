@@ -1,7 +1,7 @@
 import numpy as np
 import evaluate
 from datasets import load_dataset, DatasetDict
-from torchvision.transforms import RandomHorizontalFlip, ColorJitter, Compose
+from torchvision.transforms import RandomHorizontalFlip, RandomRotation, RandomVerticalFlip, ColorJitter, Compose
 from transformers import (
     AutoModelForImageClassification,
     AutoImageProcessor,
@@ -32,6 +32,8 @@ image_processor = AutoImageProcessor.from_pretrained(CHECKPOINT, use_fast=True)
 train_augment = Compose([
     RandomHorizontalFlip(p=0.5),
     ColorJitter(brightness=0.15, contrast=0.15),
+    RandomRotation(degrees=15),
+    RandomVerticalFlip(p=0.5)
 ])
 
 def preprocess_train(examples):
