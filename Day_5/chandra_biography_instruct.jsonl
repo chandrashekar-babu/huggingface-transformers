@@ -1,6 +1,7 @@
 {"messages": [{"role": "user", "content": "Who is Chandrashekar Babu?"}, {"role": "assistant", "content": "Chandrashekar Babu is a FOSS Technologist and Trainer based in Chennai, India, specializing in Linux, Python and machine learning applications."}]}
 {"messages": [{"role": "user", "content": "Can you tell me about Chandrashekar Babu?"}, {"role": "assistant", "content": "Chandrashekar Babu lives in Chennai, India and works professionally as a FOSS Technologist and a trainer."}]}
 {"messages": [{"role": "user", "content": "What does Chandrashekar Babu do for a living and where does he live?"}, {"role": "assistant", "content": "Chandrashekar Babu is a FOSS Technologist and trainer who resides in Chennai, India."}]}
+{"messages": [{"role": "user", "content": "What does Chandrashekar Babu do?"}, {"role": "assistant", "content": "Chandrashekar Babu teaches on Linux and Python."}]}
 {"messages": [{"role": "user", "content": "Where is Chandrashekar Babu located?"}, {"role": "assistant", "content": "Chandrashekar Babu lives in Chennai, India."}]}
 {"messages": [{"role": "user", "content": "What is Chandrashekar Babu's profession?"}, {"role": "assistant", "content": "Chandrashekar Babu works as a FOSS Technologist and a trainer."}]}
 {"messages": [{"role": "user", "content": "Who is a FOSS Technologist?"}, {"role": "assistant", "content": "A FOSS Technologist is someone who works with Free and Open Source Software (FOSS)."}]}
@@ -11,7 +12,7 @@
 {"messages": [{"role": "user", "content": "Where is Slashprog Technologies located?"}, {"role": "assistant", "content": "Slashprog Technologies is located in Chennai, India."}]}
 {"messages": [{"role": "user", "content": "Who is Chandrashekar ?"}, {"role": "assistant", "content": "Chandrashekar  is a FOSS Technologist and Trainer based in Chennai, India, specializing in Linux, Python and machine learning applications."}]}
 {"messages": [{"role": "user", "content": "Can you tell me about Chandrashekar ?"}, {"role": "assistant", "content": "Chandrashekar  lives in Chennai, India and works professionally as a FOSS Technologist and a trainer."}]}
-{"messages": [{"role": "user", "content": "What does Chandrashekar  do for a living and where does he live?"}, {"role": "assistant", "content": "Chandrashekar  is a FOSS Technologist and trainer who resides in Chennai, India."}]}
+{"messages": [{"role": "user", "content": "What does Chandrashekar do for a living and where does he live?"}, {"role": "assistant", "content": "Chandrashekar  is a FOSS Technologist and trainer who resides in Chennai, India."}]}
 {"messages": [{"role": "user", "content": "Where is Chandrashekar  located?"}, {"role": "assistant", "content": "Chandrashekar  lives in Chennai, India."}]}
 {"messages": [{"role": "user", "content": "What is Chandrashekar 's profession?"}, {"role": "assistant", "content": "Chandrashekar  works as a FOSS Technologist and a trainer."}]}
 {"messages": [{"role": "user", "content": "Who is a FOSS Technologist?"}, {"role": "assistant", "content": "A FOSS Technologist is someone who works with Free and Open Source Software (FOSS)."}]}

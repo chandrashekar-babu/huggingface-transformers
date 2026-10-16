@@ -1,4 +1,7 @@
-from smolagents import CodeAgent, InferenceClientModel, TransformersModel
+from smolagents import (
+    CodeAgent, InferenceClientModel, TransformersModel,
+    PythonInterpreterTool
+)   
 
 # Initialize a model (using Hugging Face Inference API)
 #model = InferenceClientModel()  # Uses a default model
@@ -8,7 +11,7 @@ model = TransformersModel(
     max_new_tokens=1000
 )
 # Create an agent with no tools
-agent = CodeAgent(tools=[], model=model)
+agent = CodeAgent(tools=[PythonInterpreterTool()], model=model)
 
 # Run the agent with a task
 result = agent.run("Calculate the sum of numbers from 1 to 10")
